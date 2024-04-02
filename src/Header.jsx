@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import Pdf from "./assets/Dhaivat_CV.pdf";
+import Pdf from "./assets/Vinanti_CV.pdf";
 import { Link, Element } from "react-scroll";
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);

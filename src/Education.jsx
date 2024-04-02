@@ -1,6 +1,6 @@
 import Fade from "react-reveal/Fade";
-import KclLogo from "./assets/KingsLogo.png";
-import NirmaLogo from "./assets/NirmaLogo.png";
+import KclLogo from "./assets/StonyLogo.png";
+import NirmaLogo from "./assets/PDPUlogo.jpeg";
 import Lottie from "lottie-react";
 import UpAnimationData from "./assets/UpAnimation.json";
 import EducationAnimationData from "./assets/EducationAnimation.json";
@@ -74,11 +74,11 @@ export default function Education() {
             <figure class="mt-10">
               <Fade bottom duration={1500}>
                 <h3 className="text-center text-xl text-customGradient-200 font-bold leading-8">
-                  MSc Advanced Software Engineerging
+                  MS in Computer Science
                 </h3>
                 <h3 className="text-center text-l text-customGradient-200 font-bold leading-8">
-                  King's College London, London, United Kingdom | Sept 2022-Sept
-                  2023
+                  Stony Brook University, New York | August 2022-May
+                  2024
                 </h3>
 
                 <div className="mt-10 flex items-center gap-x-4">
@@ -95,52 +95,52 @@ export default function Education() {
                 <Fade bottom duration={1100}>
                   <li className="flex flex-col items-center gap-3 sm:flex-row sm:items-center sm:justify-start">
                     <a class="relative z-10 rounded-full bg-customGradient-50 px-3 py-1.5 font-medium text-gray-800 hover:bg-customGradient-400">
-                      Security Management
+                      Analysis of Algorithms
                     </a>
                   </li>
                 </Fade>
                 <Fade bottom duration={1200}>
                   <li className="flex flex-col items-center gap-3 sm:flex-row sm:items-center sm:justify-start">
                     <a class="relative z-10 rounded-full bg-customGradient-50 px-3 py-1.5 font-medium text-gray-800 hover:bg-customGradient-400">
-                      Software Measurement and Testing
+                      Theory of Database Systems
                     </a>
                   </li>
                 </Fade>
                 <Fade bottom duration={1300}>
                   <li className="flex flex-col items-center gap-3 sm:flex-row sm:items-center sm:justify-start">
                     <a class="relative z-10 rounded-full bg-customGradient-50 px-3 py-1.5 font-medium text-gray-800 hover:bg-customGradient-400">
-                      Security Engineering
+                      Data Science Fundamentals
                     </a>
                   </li>
                 </Fade>
                 <Fade bottom duration={1400}>
                   <li className="flex flex-col items-center gap-3 sm:flex-row sm:items-center sm:justify-start">
                     <a class="relative z-10 rounded-full bg-customGradient-50 px-3 py-1.5 font-medium text-gray-800 hover:bg-customGradient-400">
-                      Human- Computer Interaction
+                      Data Mining Concepts and Techniques
                     </a>
                   </li>
                 </Fade>
                 <Fade bottom duration={1500}>
                   <li className="flex flex-col items-center gap-3 sm:flex-row sm:items-center sm:justify-start">
                     <a class="relative z-10 rounded-full bg-customGradient-50 px-3 py-1.5 font-medium text-gray-800 hover:bg-customGradient-400">
-                      Big Data Technologies
+                      Foundations of Human Computer Interaction
                     </a>
                   </li>
                 </Fade>
                 <Fade bottom duration={1600}>
                   <li className="flex flex-col items-center gap-3 sm:flex-row sm:items-center sm:justify-start">
                     <a class="relative z-10 rounded-full bg-customGradient-50 px-3 py-1.5 font-medium text-gray-800 hover:bg-customGradient-400">
-                      Model-Driven Development
+                      Distributed Systems
                     </a>
                   </li>
                 </Fade>
-                <Fade bottom duration={1700}>
+                {/* <Fade bottom duration={1700}>
                   <li className="flex flex-col items-center gap-3 sm:flex-row sm:items-center sm:justify-start">
                     <a class="relative z-10 rounded-full bg-customGradient-50 px-3 py-1.5 font-medium text-gray-800 hover:bg-customGradient-400">
                       SE for Financial Systems
                     </a>
                   </li>
-                </Fade>
+                </Fade> */}
               </ul>
             </figure>
           </div>
@@ -154,10 +154,10 @@ export default function Education() {
             <figure class="mt-10">
               <Fade bottom duration={1500}>
                 <h3 className="text-center text-xl text-customGradient-200 font-bold leading-8">
-                  Bachelors Of Information Technology
+                  B.Tech in Information and Communication Technology
                 </h3>
                 <h3 className="text-center text-l text-customGradient-200 font-bold leading-8">
-                  Nirma University, Ahmedabad, India | August 2017 - June 2020
+                  Pandit Deendayal Petroleum University (PDPU), Gandhinagar, Gujarat India | August 2016 - July 2020
                 </h3>
                 {/* </blockquote> */}
                 <div className="mt-10 flex items-center gap-x-4">
@@ -174,14 +174,14 @@ export default function Education() {
                 <Fade bottom duration={1100}>
                   <li className="flex flex-col items-center gap-3 sm:flex-row sm:items-center sm:justify-start">
                     <a class="relative z-10 rounded-full bg-customGradient-50 px-3 py-1.5 font-medium text-gray-800 hover:bg-customGradient-400">
-                      Operating System
+                      Computer Networks
                     </a>
                   </li>
                 </Fade>
                 <Fade bottom duration={1200}>
                   <li className="flex flex-col items-center gap-3 sm:flex-row sm:items-center sm:justify-start">
                     <a class="relative z-10 rounded-full bg-customGradient-50 px-3 py-1.5 font-medium text-gray-800 hover:bg-customGradient-400">
-                      Advanced Database
+                      Operating Systems
                     </a>
                   </li>
                 </Fade>
@@ -195,35 +195,35 @@ export default function Education() {
                 <Fade bottom duration={1400}>
                   <li className="flex flex-col items-center gap-3 sm:flex-row sm:items-center sm:justify-start">
                     <a class="relative z-10 rounded-full bg-customGradient-50 px-3 py-1.5 font-medium text-gray-800 hover:bg-customGradient-400">
-                      Mircoservice Architectures
+                      Wireless Sensor Networks
                     </a>
                   </li>
                 </Fade>
                 <Fade bottom duration={1500}>
                   <li className="flex flex-col items-center gap-3 sm:flex-row sm:items-center sm:justify-start">
                     <a class="relative z-10 rounded-full bg-customGradient-50 px-3 py-1.5 font-medium text-gray-800 hover:bg-customGradient-400">
-                      Data Structure
+                      Object Oriented Programming
                     </a>
                   </li>
                 </Fade>
                 <Fade bottom duration={1600}>
                   <li className="flex flex-col items-center gap-3 sm:flex-row sm:items-center sm:justify-start">
                     <a class="relative z-10 rounded-full bg-customGradient-50 px-3 py-1.5 font-medium text-gray-800 hover:bg-customGradient-400">
-                      Information Retrieval Systems
+                      Artificial Intelligence
                     </a>
                   </li>
                 </Fade>
                 <Fade bottom duration={1700}>
                   <li className="flex flex-col items-center gap-3 sm:flex-row sm:items-center sm:justify-start">
                     <a class="relative z-10 rounded-full bg-customGradient-50 px-3 py-1.5 font-medium text-gray-800 hover:bg-customGradient-400">
-                      Big Data Analytics
+                      Machine Learning
                     </a>
                   </li>
                 </Fade>
                 <Fade bottom duration={1800}>
                   <li className="flex flex-col items-center gap-3 sm:flex-row sm:items-center sm:justify-start">
                     <a class="relative z-10 rounded-full bg-customGradient-50 px-3 py-1.5 font-medium text-gray-800 hover:bg-customGradient-400">
-                      Data Mining
+                      Big Data Analytics
                     </a>
                   </li>
                 </Fade>
@@ -243,7 +243,7 @@ export default function Education() {
             </div>
             <div className="flex justify-center items-center pb-10">
             <a
-                href="https://www.linkedin.com/in/dhaivatdesai1999"
+                href="https://www.linkedin.com/in/parikhvinanti/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mx-4"
@@ -254,7 +254,7 @@ export default function Education() {
                   </div>
                 </div>
               </a>
-              <a href="mailto:dhaivat1999@gmail.com" className="mx-4">
+              <a href="mailto:vinantip16@gmail.com" className="mx-4">
                 <div className="font-semibold leading-6 text-customGradient-200 hover:text-opacity-50 flex justify-center items-center">
                   <div style={{ width: "50px", height: "50px" }}>
                     <Lottie animationData={MailAnimation}></Lottie>
@@ -262,7 +262,7 @@ export default function Education() {
                 </div>
               </a>
               <a
-                href="https://www.instagram.com/dhaivat_dd"
+                href="https://www.instagram.com/vinanti_parikh/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mx-4"
@@ -275,7 +275,7 @@ export default function Education() {
               </a>
              
               <a
-                href="https://github.com/dhaivat1999"
+                href="https://github.com/Vinanti1698"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="mx-4"

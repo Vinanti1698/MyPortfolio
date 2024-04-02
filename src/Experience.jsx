@@ -1,6 +1,7 @@
 import React from "react";
-import DevLogo from "./assets/DevLogo.jpg";
-import FirstLogo from "./assets/FirstWalkinLogo.jpg";
+import DevLogo from "./assets/SynoptekLogo.jpeg";
+import FirstLogo from "./assets/DivergentLogo.png";
+import CaaxLogo from "./assets/CAAX.jpeg";
 import Fade from "react-reveal/Fade";
 import { Link } from "react-scroll";
 import Lottie from "lottie-react";
@@ -39,17 +40,15 @@ export default function Experience() {
             <div className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-customGradient-50 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
               <div className="p-8 sm:p-10 lg:flex-auto">
                 <h3 className="text-2xl font-bold tracking-tight text-customGradient-200">
-                  Bank of America - Software Engineer IB
+                  Divergent3D - Software Engineering Intern 
                 </h3>
                 <h4 className="text-customGradient-200 italic">
-                  July 2020 - June 2022 | GIFT City, Gujarat, India
+                  May 2023 - August 2023 | Torrance, California
                 </h4>
                 <p className="mt-6 text-base leading-7 text-customGradient-200">
-                  • Received one gold and two bronze recognition awards. •
-                  Developed a Java tool for global web.config file changes,
-                  enhancing integration efficiency by 80%. • Led the DevOps
-                  team, establishing CI/CD using Jenkins for over 400
-                  repositories.
+                Automated parsing through thousands of unstructured files from diverse sources, optimizing organization development and analysis workflows significantly - <br />
+                  • 50% reduction in data extraction and consolidation time  <br />
+                  • 78% acceleration in data processing speed. 
                 </p>
                 <div className="mt-10 flex items-center gap-x-4">
                   <h4 className="flex-none text-xl font-semibold leading-6 text-customGradient-400">
@@ -63,32 +62,32 @@ export default function Experience() {
                 >
                   <li className="flex flex-col items-center gap-3 sm:flex-row sm:items-center sm:justify-start">
                     <a className="relative z-10 rounded-full bg-customGradient-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-customGradient-400">
-                      Angular
+                      Python 
                     </a>
                   </li>
                   <li className="flex flex-col items-center gap-3 sm:flex-row sm:items-center sm:justify-start">
                     <a className="relative z-10 rounded-full bg-customGradient-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-customGradient-400">
-                      Java
+                      Splunk
                     </a>
                   </li>
                   <li className="flex flex-col items-center gap-3 sm:flex-row sm:items-center sm:justify-start">
                     <a className="relative z-10 rounded-full bg-customGradient-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-customGradient-400">
-                      Dev Ops
+                      GraphQL
                     </a>
                   </li>
                   <li className="flex flex-col items-center gap-3 sm:flex-row sm:items-center sm:justify-start">
                     <a className="relative z-10 rounded-full bg-customGradient-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-customGradient-400">
-                      Anisble Tower
+                      Prisma Schema
                     </a>
                   </li>
                   <li className="flex flex-col items-center gap-3 sm:flex-row sm:items-center sm:justify-start">
                     <a className="relative z-10 rounded-full bg-customGradient-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-customGradient-400">
-                      TypeScript
+                      Git 
                     </a>
                   </li>
                   <li className="flex flex-col items-center gap-3 sm:flex-row sm:items-center sm:justify-start">
                     <a className="relative z-10 rounded-full bg-customGradient-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-customGradient-400">
-                      BitBucket
+                      Kubernetes 
                     </a>
                   </li>
                 </ul>
@@ -96,11 +95,7 @@ export default function Experience() {
               <div className="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
                 <div className="rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16 h-full">
                   <div className="mx-auto max-w-xs h-full px-8 flex justify-center items-center">
-                    <img
-                      src="https://asset.brandfetch.io/ide4lTCz-B/id3wsg0wma.svg"
-                      className="w-full h-auto"
-                      alt="Bank of America Logo"
-                    />
+                  <img src={FirstLogo} alt="" className="w-full h-auto"></img>
                   </div>
                 </div>
               </div>
@@ -110,16 +105,15 @@ export default function Experience() {
             <div className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-customGradient-50 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
               <div className="p-8 sm:p-10 lg:flex-auto">
                 <h3 className="text-2xl font-bold tracking-tight text-customGradient-200">
-                  Dev Information Technology Pvt Ltd - Intern
+                  Synoptek - Associate Software Engineer
                 </h3>
                 <h4 className="text-customGradient-200 italic">
-                  Jan 2020 — May 2020 - Ahmedabad, Gujarat, India
+                  August 2020 - July 2022 | Ahmedabad, Gujarat, India
                 </h4>
                 <p className="mt-6 text-base leading-7 text-customGradient-200">
-                  • Prepared the front-end of projects using Angular 8, focusing
-                  on HTML, CSS, and Typescript. • Implemented a three-tier
-                  architecture for seamless integration between the front-end
-                  and APIs.
+                Implemented data ETL pipelines and streamlined the MS SQL operations to enhance the system performance, data integrity, and application reliability - <br />
+                  • 30% reduction in data retrieval time <br />
+                  • Delivered 5+ major client projects on time by collaborating with cross-functional agile teams
                 </p>
                 <div className="mt-10 flex items-center gap-x-4">
                   <h4 className="flex-none text-xl font-semibold leading-6 text-customGradient-400">
@@ -133,32 +127,32 @@ export default function Experience() {
                 >
                   <li class="flex flex-col items-center gap-3 sm:flex-row sm:items-center sm:justify-start">
                     <a class="relative z-10 rounded-full bg-customGradient-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-customGradient-400">
-                      Angular
+                      Python 
                     </a>
                   </li>
                   <li class="flex flex-col items-center gap-3 sm:flex-row sm:items-center sm:justify-start">
                     <a class="relative z-10 rounded-full bg-customGradient-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-customGradient-400">
-                      Express.js
+                      C#
                     </a>
                   </li>
                   <li class="flex flex-col items-center gap-3 sm:flex-row sm:items-center sm:justify-start">
                     <a class="relative z-10 rounded-full bg-customGradient-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-customGradient-400">
-                      Javascript
+                      SQL Server Management Studio
                     </a>
                   </li>
                   <li class="flex flex-col items-center gap-3 sm:flex-row sm:items-center sm:justify-start">
                     <a class="relative z-10 rounded-full bg-customGradient-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-customGradient-400">
-                      HTML / CSS
+                      Azure Data Factory
                     </a>
                   </li>
                   <li class="flex flex-col items-center gap-3 sm:flex-row sm:items-center sm:justify-start">
                     <a class="relative z-10 rounded-full bg-customGradient-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-customGradient-400">
-                      TypeScript
+                      Microsoft PowerBI
                     </a>
                   </li>
                   <li class="flex flex-col items-center gap-3 sm:flex-row sm:items-center sm:justify-start">
                     <a class="relative z-10 rounded-full bg-customGradient-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-customGradient-400">
-                      Github
+                      Dev Ops
                     </a>
                   </li>
                 </ul>
@@ -182,11 +176,11 @@ export default function Experience() {
                   May 2019 — July 2019 - Bangalore, Karnataka, India
                 </h4>
                 <p className="mt-6 text-base leading-7 text-customGradient-200">
-                  • Spearheaded the adoption of Jest for API automation testing,
-                  resulting in a 30% decrease in bug reports, enhancing the
-                  reliability and stability of the software. • Managed the
-                  performance and API testing of the CCD (Cafe Coffee Day)
-                  application.
+               
+                Developed a full-stack E-commerce platform, handling front-end, back-end, and SEO optimization for optimal performance - <br />
+                  • Supported in managing SEO to expedite site traffic by 30%
+
+
                 </p>
                 <div className="mt-10 flex items-center gap-x-4">
                   <h4 className="flex-none text-xl font-semibold leading-6 text-customGradient-400">
@@ -200,22 +194,17 @@ export default function Experience() {
                 >
                   <li className="flex flex-col items-center gap-3 sm:flex-row sm:items-center sm:justify-start">
                     <a class="relative z-10 rounded-full bg-customGradient-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-customGradient-400">
-                      JEST
+                      HTML
                     </a>
                   </li>
                   <li className="flex flex-col items-center gap-3 sm:flex-row sm:items-center sm:justify-start">
                     <a class="relative z-10 rounded-full bg-customGradient-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-customGradient-400">
-                      Github
+                      React
                     </a>
                   </li>
                   <li className="flex flex-col items-center gap-3 sm:flex-row sm:items-center sm:justify-start">
                     <a class="relative z-10 rounded-full bg-customGradient-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-customGradient-400">
-                      Apollo Graphql
-                    </a>
-                  </li>
-                  <li className="flex flex-col items-center gap-3 sm:flex-row sm:items-center sm:justify-start">
-                    <a class="relative z-10 rounded-full bg-customGradient-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-customGradient-400">
-                      HTML / CSS
+                      CSS
                     </a>
                   </li>
                   <li className="flex flex-col items-center gap-3 sm:flex-row sm:items-center sm:justify-start">
@@ -223,12 +212,22 @@ export default function Experience() {
                       JavaScript
                     </a>
                   </li>
+                  <li className="flex flex-col items-center gap-3 sm:flex-row sm:items-center sm:justify-start">
+                    <a class="relative z-10 rounded-full bg-customGradient-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-customGradient-400">
+                      C#
+                    </a>
+                  </li>
+                  <li className="flex flex-col items-center gap-3 sm:flex-row sm:items-center sm:justify-start">
+                    <a class="relative z-10 rounded-full bg-customGradient-50 px-3 py-1.5 font-medium text-gray-600 hover:bg-customGradient-400">
+                      ASP.NET Framework
+                    </a>
+                  </li>
                 </ul>
               </div>
               <div className="-mt-2 p-2 lg:mt-0 lg:w-full lg:max-w-md lg:flex-shrink-0">
                 <div className="rounded-2xl bg-gray-50 py-10 text-center ring-1 ring-inset ring-gray-900/5 lg:flex lg:flex-col lg:justify-center lg:py-16 h-full">
                   <div className="mx-auto max-w-xs h-full px-8 flex justify-center items-center">
-                    <img src={FirstLogo} alt="" className="w-full h-auto"></img>
+                     <img src={CaaxLogo} alt="" className="w-full h-auto"></img> 
                   </div>
                 </div>
               </div>

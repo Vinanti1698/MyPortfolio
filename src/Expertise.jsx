@@ -89,13 +89,12 @@ export default function Expertise() {
                     </svg>
                   </span>
                   <h3 className="mt-3 text-2xl font-semibold leading-6 text-customGradient-200 group-hover:text-gray-500">
-                    <a> FrontEnd - React, Angular</a>
+                    <a> FrontEnd - React, HTML</a>
                   </h3>
                 </div>
                 <p className="mt-5 line-clamp-3 text-sm leading-6 text-customGradient-200">
-                  Mastering the art of front-end alchemy: React, Angular, HTML,
-                  CSS (Tailwind CSS), TypeScript, and JavaScript are my tools of
-                  choice.
+                  Mastering the art of front-end alchemy: React, HTML,
+                  CSS and JavaScript are my tools of choice.
                 </p>
               </article>
             </Fade>
@@ -121,7 +120,7 @@ export default function Expertise() {
                 </div>
                 <p className="mt-5 line-clamp-3 text-sm leading-6 text-customGradient-200">
                   At the intersection of databases and APIs, I orchestrate
-                  seamless experiences with Node.js, Express, and MongoDB,
+                  seamless experiences with Node.js, MySQL, PostgreSQL, SSMS, and GraphQL
                   ensuring data flows smoothly and securely.
                 </p>
               </article>

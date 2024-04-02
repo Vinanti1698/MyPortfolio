@@ -15,7 +15,7 @@ function App() {
       </div>
 
       <div className="flex flex-col min-h-screen">
-        <LandingPage isLoggedIn={true} username="Dhaivat Desai"></LandingPage>
+        <LandingPage isLoggedIn={true} username="Vinanti Parikh"></LandingPage>
       </div>
 
       <div>

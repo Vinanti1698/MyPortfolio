@@ -1,6 +1,6 @@
 import React from "react";
-import DhaivatImage from './assets/Dhaivat.jpg';
-import LondonBackScreen from './assets/LondonBackScreen.jpg';
+import DhaivatImage from './assets/Vinanti.jpg';
+import LondonBackScreen from './assets/NewYorkBackScreen.jpeg';
 import Lottie from 'lottie-react';
 import AnimationData from './assets/DownAnimation.json';
 import Fade from "react-reveal/Fade";
@@ -25,11 +25,11 @@ export default function LandingPage(props) {
           <Fade bottom duration={1200}>
             <div className="mx-auto max-w-7xl px-6 lg:px-8 md:ml-16">
               <h2 className="text-4xl font-bold tracking-tight text-customGradient-50 sm:text-6xl hover:text-opacity-50 hover:underline">
-                Software Engineer and Front-end Developer
+                Software Engineer and Full-Stack Developer
               </h2>
               <p className="mt-6 text-lg leading-8 text-customGradient-300">
-                Hi, I am Dhaivat Desai based in London, United Kingdom. I am a driven Software Engineer with a Master's in Advanced Software Engineering from Kings College London. Experienced in leading DevOps processes, setting up CI/CD pipelines, and developing automation utilities, with extensive knowledge of front end development Technologies such as React, Angular using Javascript and Typescript. 
-              </p>
+              Hey, I am Vinanti, currently pursuing an MS in Computer Science from Stony Brook University. With my expertise spanning both front-end and back-end development, along with a strong background in databases, I excel in leveraging a wide array of technologies. Whether it's crafting seamless user experiences with React, HTML, CSS, and Bootstrap on the front-end, or optimizing backend systems with Java, Python, Node.js, and PostgreSQL, I'm all about creating a meaningful impact, one line of code at a time.           
+               </p>
             </div>
           </Fade>
   
