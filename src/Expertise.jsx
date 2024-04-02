@@ -66,8 +66,7 @@ export default function Expertise() {
                 <p className="mt-5 line-clamp-3 text-sm leading-6 text-customGradient-200">
                   In the realm of software development, I seamlessly transition
                   between the worlds of functional and object-oriented
-                  programming, proficient in Java, Go, Python, JavaScript, and
-                  TypeScript
+                  programming, proficient in Java, Go, Python, JavaScript
                 </p>
               </article>
             </Fade>
