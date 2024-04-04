@@ -32,8 +32,8 @@ export default function Expertise() {
               </Fade>
             </div>
           </div>
-
-          <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+          
+          <div className="mx-auto mt-10 grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 border-t border-gray-200 pt-10 sm:mt-16 sm:pt-16 lg:mx-0 lg:max-w-none lg:grid-cols-3 " >
             <Fade bottom duration={1500}>
               <article className="flex max-w-xl flex-col items-start justify-between border-l border-gray-200 pl-8">
                 <div className="group relative flex items-center">
@@ -63,10 +63,8 @@ export default function Expertise() {
                     <a>Software Development</a>
                   </h3>
                 </div>
-                <p className="mt-5 line-clamp-3 text-sm leading-6 text-customGradient-200">
-                  In the realm of software development, I seamlessly transition
-                  between the worlds of functional and object-oriented
-                  programming, proficient in Java, Go, Python, JavaScript
+                <p className="mt-5 text-sm leading-6 text-customGradient-200">
+                  In the field of software development, I easily transition between different types of programming styles and languages.I'm skilled in Python, Java, C# and JavaScript.
                 </p>
               </article>
             </Fade>
@@ -91,14 +89,13 @@ export default function Expertise() {
                     <a> FrontEnd - React, HTML</a>
                   </h3>
                 </div>
-                <p className="mt-5 line-clamp-3 text-sm leading-6 text-customGradient-200">
-                  Mastering the art of front-end alchemy: React, HTML,
-                  CSS and JavaScript are my tools of choice.
+                <p className="mt-5  text-sm leading-6 text-customGradient-200">
+                Crafting exceptional websites using HTML, CSS, JavaScript, React, and Bootstrap is my forte. I elevate web design to a new level, seamlessly integrating style with technical prowess to deliver memorable digital experiences.
                 </p>
               </article>
             </Fade>
             <Fade bottom duration={1900}>
-              <article className="flex max-w-xl flex-col items-start justify-between border-l pl-8 ">
+              <article className="flex max-w-xl flex-col items-start justify-between border-l pl-8">
                 <div className="group relative flex items-center">
                   <span className="mr-2">
                     <svg
@@ -117,10 +114,8 @@ export default function Expertise() {
                     <a> Database and API Development</a>
                   </h3>
                 </div>
-                <p className="mt-5 line-clamp-3 text-sm leading-6 text-customGradient-200">
-                  At the intersection of databases and APIs, I orchestrate
-                  seamless experiences with Node.js, MySQL, PostgreSQL, SSMS, and GraphQL
-                  ensuring data flows smoothly and securely.
+                <p className="mt-5 text-sm leading-6 text-customGradient-200">
+                  At the intersection of databases and APIs, I ensure everything operates seamlessly. With my expertise in MySQL, PostgreSQL, SSMS, and GraphQL, I guarantee data moves securely and without a glitch, crafting effortless experiences for users.
                 </p>
               </article>
             </Fade>
