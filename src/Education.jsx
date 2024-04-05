@@ -38,7 +38,7 @@ export default function Education() {
 
   return (
     <>
-      <div id="education" className="bg-customGradient-900  w-screen">
+      <div id="education" className="bg-customGradient-900  w-screen" style={{ paddingTop: "150px" }} >
         <div className="mx-auto max-w-7xl px-6 lg:px-8 ">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-16 mx-auto max-w-7xl px-6 lg:px-8">
             <div>

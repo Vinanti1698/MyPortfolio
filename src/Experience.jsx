@@ -170,10 +170,10 @@ export default function Experience() {
             <div className="mx-auto mt-16 max-w-2xl rounded-3xl ring-1 ring-customGradient-50 sm:mt-20 lg:mx-0 lg:flex lg:max-w-none">
               <div className="p-8 sm:p-10 lg:flex-auto">
                 <h3 className="text-2xl font-bold tracking-tight text-customGradient-200">
-                  First Walkin Technologies Pvt Ltd - Summer Intern{" "}
+                  CAAX Technologies - Full-Stack Developer Intern
                 </h3>
                 <h4 className="text-customGradient-200 italic">
-                  May 2019 — July 2019 - Bangalore, Karnataka, India
+                  May 2018 — July 2018 - Ahmedabad, India
                 </h4>
                 <p className="mt-6 text-base leading-7 text-customGradient-200">
                

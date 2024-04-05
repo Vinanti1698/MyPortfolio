@@ -19,8 +19,7 @@ export default function Expertise() {
                   Expertise
                 </h2>
                 <p className="mt-2 text-lg leading-8 text-customGradient-200">
-                  Sometimes the best way to solve a problem is to help others -
-                  Uncle Iroh, 'Avatar: The Last Airbender'
+                  Do, or do not. there is no "try" - Yoda from Star Wars
                 </p>
               </Fade>
             </div>
